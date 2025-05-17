@@ -7,13 +7,37 @@
 
 <html lang="en">
 <head>
-  <title>John Doe</title>
+  <title>Christian Muhmann</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+.teaser-box{
+  flex:0 0 275px;
+  width:275px;
+  height:175px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:15px;
+  overflow:hidden;
+  border-radius:4px;
+}
+.teaser-box.portrait img{
+  max-height:100%;
+  width:auto;
+  display:block;
+}
+/* landscape variant: fill width instead of height */
+.teaser-box.landscape img{
+  width:100%;
+  height:auto;
+  max-height:none;
+}
+</style>
 </head>
 <body>
 
@@ -34,9 +58,8 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
 				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
+				  <li><a href="CV/CV_Christian_Muhmann.pdf" target="_blank">CV</a></li> 
 		  </ul>
 		</div>
 	  </div>
@@ -45,63 +68,97 @@
   <!-- Page Content -->
     <div class="container">
 
-        <div class="row">
+      <div class="row">
 
-            <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
-                
-                <!-- Main Image -->
-                <img class="img-responsive" src="photo.gif" alt=""><br>
-                
-                <div style="margin-top:3%; text-align:justify;">                
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing <a href="#">elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                </div>
-            </div> 
+          <!-- Entries Column -->
+          <div class="col-md-8" style="height: 60vh;">
+              
+              <!-- Main Image -->
+              
+              <div style="margin-top:3%; text-align:justify;">                
+        <p>Hi!</p>
+        
+        <p> I recently graduated with an M.Sc. in Mechanical Engineering and an M.Sc. in Mechatronics & Robotics from <a href="https://www.uni-hannover.de/en/" target="_blank">Leibniz University Hannover</a>, Germany. During my studies, I conducted research at the <a href="https://www.imes.uni-hannover.de/en/" target="_blank">Institute of Mechatronic Systems</a> at the Leibniz University Hannover under the supervision of <a href="https://www.imes.uni-hannover.de/en/institut/team/prof-dr-ing-thomas-seel" target="_blank">Thomas Seel</a> and the <a href="https://crl.utm.utoronto.ca" target="_blank">Continuum Robotics Lab</a> at the University of Toronto under the supervision of <a href="https://www.uni-hannover.de/en/" target="_blank">Jessica Burgner-Kahrs</a>. </p>
+        
+        <p>Prior to this, I completed a dual study program with a B.Eng. Mechanical Engineering at the <a href="https://www.fh-muenster.de/en/" target="_blank">University of Applied Sciences Münster</a>, Germany, in partnership with <a href="https://www.cargobull.com/en" target="_blank">Schmitz Cargobull AG</a>, following the distinguished German dual education pathway, which combines vocational training and academic studies. During this program, I qualified as a Mechatronics Technician, rotated through several R&amp;D departments, and later joined full-time as a System Development Engineer for vehicle electrical architectures.</p>
 
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>John Doe</b></div><br>
-                <p><b>john at doe.com</b><br>
-                <p>Random Department<br>
-                University of Randomness<br>
-                Street<br>
-                City <br>
-                Country<br>
-                </p>
-            </div>
-            
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="#">Google Scholar</a></dd> 
-              <dd><a href="#">Twitter</a></dd>
-              <dd><a href="#">LinkedIn</a></dd>
-            </div>
-            
-            
-            <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="publications">Publications</h2>
-                
-                <strong>Peer-reviewed</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
-                </ul>
-            
-                <strong>Technical Reports</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
-                </ul>
-            </div>
+        <p> My research interests focus on soft and continuum robotics, model- and learning-based control (including MPC), kinematic and dynamic modelling, and machine learning. </p>
 
-            
+        <p> Moving forward, I aim to widen my skill sets and expand my work in robot perception and semantic understanding, mobile robotics and manipulation, and state estimation.</p>
+
+            </div>
+          </div> 
+
+          
+          <!-- Contact Info on the Sidebar -->
+          <div class="col-md-4">
+              <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Christian Muhmann</b></div><br>
+              <img class="img-responsive" src="img/profile.jpg" alt="" width="200"><br>
+              <p><b>christian.muhmann at alumni-uni-hannover.de</b><br>
+              <p>Seeking opportunities to do research in robotics<br>
+              </p>
+          </div>
+          
+          
+          <!-- Links on the Sidebar -->
+          <div class="col-md-4" style="margin-top:2%">
+            <dd><a href="https://scholar.google.ca/citations?user=Y7S6yq8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a></dd>
+            <dd><a href="https://www.linkedin.com/in/cmuhmann" target="_blank">LinkedIn</a></dd>
+            <dd><a href="CV/CV_Christian_Muhmann.pdf" target="_blank">CV</a></dd>
+          </div>
+
+
+          <!-- Publications -->
+          <div class="col-md-8" style="height: 100vh;">    
+              <h2 id="publications">Publications</h2>
+              
+              <ul style="list-style: none; padding: 0;">
+
+                <!-- Publications 2025 -->
+                 <!-- Publication 2025: 1 -->
+                <li class="publication-item" style="display: flex; margin-bottom: 20px; align-items: flex-start;">
+                  <div class="teaser-box portrait">
+                    <img src="img/TDCR_5tend_setup.webp" alt="Teaser for TDCRs with an arbitrary number of tendons">
+                  </div>
+                  <div> 
+                    <a href="https://arxiv.org/abs/2503.20693" style="font-size: 18px; font-weight: bold; color: #0056b3; text-decoration: none;">
+                      Toward Dynamic Control of Tendon-Driven Continuum Robots using Clarke Transform
+                    </a>
+                    <p style="margin: 5px 0;">
+                      <strong>Christian Muhmann</strong>, Reinhard M Grassmann, Max Bartholdt, Jessica Burgner-Kahrs
+                    </p>
+                    <p><i>arXiv, 2025</i></p>
+                    <div>
+                      <a href="https://arxiv.org/abs/2503.20693" style="font-size: 14px; color: #880808; text-decoration: none; margin-right: 10px;">[arXiv]</a>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Publications 2024 -->
+                 <!-- Publication 2024: 1 -->
+                <li class="publication-item" style="display: flex; margin-bottom: 20px; align-items: flex-start;">
+                  <div class="teaser-box landscape">
+                    <img src="img/learning_based_NMPC.webp" alt="Teaser for Learning‑Based Nonlinear MPC">
+                  </div>
+                  <div>
+                    <a href="https://arxiv.org/abs/2411.05616" style="font-size: 18px; font-weight: bold; color: #0056b3; text-decoration: none;">
+                      Learning-based Nonlinear Model Predictive Control of Articulated Soft Robots using Recurrent Neural Networks
+                    </a>
+                    <p style="margin: 5px 0;">
+                      Hendrik Schäfke, Tim-Lukas Habich, <strong>Christian Muhmann</strong>, Simon FG Ehlers, Thomas Seel, Moritz Schappler
+                    </p>
+                    <p><i>IEEE Robotics and Automation Letters, 2024</i></p>
+                    <div>
+                      <a href="https://arxiv.org/abs/2411.05616" style="font-size: 14px; color: #880808; text-decoration: none; margin-right: 10px;">[arXiv]</a>
+                      <a href="https://ieeexplore.ieee.org/document/10750121" style="font-size: 14px; color: #880808; text-decoration: none; margin-right: 10px;">[IEEE RA-L]</a>
+                    </div>
+                  </div>
+                </li>
+
+                
+              </ul>
+          </div>
         </div>
-
-
     </div>
     <!-- /.container -->
     
